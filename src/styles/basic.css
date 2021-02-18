@@ -1,0 +1,29 @@
+html{
+    color: #6f8691;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: Averta,Avenir W02,Avenir,Helvetica,Arial,sans-serif;
+    letter-spacing: .016em;
+    background-color: #fff;
+    background-color: var(--color-background-screen,#fff);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+.m-t-2 {
+    margin-top: 16px!important;
+}
+.m-b-1, .m-y-1 {
+    margin-bottom: 8px!important;
+}
+.mt-8{
+    margin-top: 8rem !important;
+}
+.mt-10{
+    margin-top: 10rem !important;
+}
+.small{
+    color: #6f8691; 
+}
