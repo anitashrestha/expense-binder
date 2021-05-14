@@ -8,6 +8,7 @@ import { withRouter } from "react-router-dom";
 
 
 function RegistrationForm(props) {
+    console.log(props)
     const [state, setState] = useState({
         email: "",
         password: "",
@@ -23,6 +24,7 @@ function RegistrationForm(props) {
     }
     const sendDetailsToServer = () => {
         if (state.email.length && state.password.length) {
+            props.showError = ()=> {};
             props.showError(null);
             const payload = {
                 "email": state.email,
